@@ -1,6 +1,5 @@
 class CreateAdventures < ActiveRecord::Migration
   def change
-  	drop_table :adventures
     create_table :adventures do |t|
       t.string :name
       t.text :description
